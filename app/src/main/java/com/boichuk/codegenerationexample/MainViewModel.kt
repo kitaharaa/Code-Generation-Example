@@ -10,5 +10,9 @@ class MainViewModel: ViewModel() {
     val _viewState = MutableStateFlow (ViewState())
     val viewState get() = _viewState.asStateFlow()
 
+    init {
+//        updateCounterState()
+    }
+
     data class ViewState(val counter: Int = 0)
 }

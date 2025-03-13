@@ -17,4 +17,5 @@ dependencies {
     implementation(libs.ksp)
     implementation(libs.kotlinpoet)
     implementation(libs.kotlinpoet.ksp)
+    implementation(project(":ksp-plugin:annotation"))
 }
